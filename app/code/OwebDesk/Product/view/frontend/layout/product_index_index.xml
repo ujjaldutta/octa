@@ -1,0 +1,30 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+
+	<head>
+        <title>Product</title>
+        <!--
+		demo
+		<css src="OwebDesk_Product::css/css.css"/>
+		<script src="OwebDesk_Product::js/js.js"/>
+		<css src="jquery/fileUploader/css/jquery.fileupload-ui.css"/>
+		<script src="path/file.js" defer="defer"/>
+		<link src="http://url.com" src_type="url"/>
+		<remove src="path/remove/file.css"/>
+
+		-->
+    </head>
+
+    <body>
+
+
+        <referenceContainer name="sidebar.main">
+            <block class="OwebDesk\Product\Block\Index\Sidebar" name="product_index_sidebar" before="-" template="OwebDesk_Product::product_index_sidebar.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="OwebDesk\Product\Block\Index\Index" name="product_index_index" template="OwebDesk_Product::product_index_index.phtml"/>
+        </referenceContainer>
+
+
+    </body>
+</page>

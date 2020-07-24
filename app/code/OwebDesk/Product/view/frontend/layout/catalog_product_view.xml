@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+   <body>
+   <referenceBlock name="reviews.tab" remove="true" />
+   <referenceBlock name="product.attributes" remove="true" />
+   
+      <referenceBlock name="product.info.details">
+          <block class="OwebDesk\Product\Block\Index\Index" name="features.tab" template="OwebDesk_Product::features.phtml" group="detailed_info" after="-">
+              <arguments>
+                  <argument translate="true" name="title" xsi:type="string">Features</argument>
+                  <argument name="priority" xsi:type="string">20</argument>
+              </arguments>
+              
+          </block>
+          <block class="OwebDesk\Product\Block\Index\Index" name="spec.tab" template="OwebDesk_Product::specifications.phtml" group="detailed_info" after="-">
+              <arguments>
+                  <argument translate="true" name="title" xsi:type="string">Specs</argument>
+                  <argument name="priority" xsi:type="string">22</argument>
+              </arguments>
+              
+          </block>
+            <block class="OwebDesk\Product\Block\Index\ProductGallery" name="gallery.tab" template="OwebDesk_Product::gallery.phtml" group="detailed_info">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Gallery</argument>
+                    <argument name="priority" xsi:type="string">23</argument>
+                </arguments>
+            </block>
+
+            
+
+
+      </referenceBlock>
+   </body>
+</page>
