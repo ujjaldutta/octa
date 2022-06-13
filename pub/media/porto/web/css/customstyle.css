@@ -1,0 +1,235 @@
+.octa_ctas div.cta {
+    height: 163px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    overflow: hidden;
+    position: relative;
+    margin: 0 30px 30px 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /**box-shadow: 1px 1px 3px #888,
+		-1px -1px 3px #888;**/
+}
+
+.octa_ctas div.third_cta {
+    margin-right: 0;
+}
+
+.octa_ctas div.cta .mask {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 321px;
+}
+
+.octa_ctas div.nobg {
+    background: black;
+    width: 100%;
+}
+
+.octa_ctas div.cta img {
+    display: block;
+    position: relative;
+}
+
+.three_ctas div.cta,
+.three_ctas div.cta .mask,
+.three_ctas div.cta img {
+    width: 309px;
+}
+
+
+/* Transition Effects */
+
+.octa_ctas div.cta img.main {
+    /* iOS hack to improve performance */
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    /* Actual transitions */
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.octa_ctas div.cta .mask {
+    width: 100%;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+
+/* May vary by number of columns */
+
+.octa_ctas div.cta .content {
+    font-family: VegurMedium;
+    z-index: 5;
+    text-align: left;
+    background: transparent;
+    padding: 0;
+    width: auto;
+    height: 150px;
+    border-radius: none;
+    position: relative;
+}
+
+.octa_ctas div.cta a {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    line-height: 34px;
+    padding-right: 25px;
+    background: transparent url(../images/learn_icon.png) right center no-repeat;
+    z-index: 6;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: VegurLight;
+    color: white;
+}
+
+.octa_ctas div.cta a:hover {
+    color: #3691c3;
+}
+
+.octa_ctas div.cta a.learn {
+    left: 10px;
+}
+
+.octa_ctas div.cta a.see {
+    right: 10px;
+}
+
+.octa_ctas div.cta p {
+    color: #3691c3;
+    font-size: 17px;
+    line-height: 24px;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    /* iOS hack to improve performance */
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    /* Actual transitions */
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    margin: 12px;
+    max-height: 150px;
+}
+
+.octa_ctas div.cta .content p span {
+    color: #8cc0d3;
+}
+
+.octa_ctas div.cta img.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    /* iOS hack to improve performance */
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    /* Actual transitions */
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+..octa_ctas div.cta a {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    /* iOS hack to improve performance */
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    /* Actual transitions */
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.octa_ctas div.cta:hover img.main,
+.octa_ctas div.touchstart img.main {
+    /* iOS hack to improve performance */
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    /* Actual transitions */
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.octa_ctas div.cta:hover .mask,
+.octa_ctas div.touchstart .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.octa_ctas div.cta:hover h2,
+.octa_ctas div.cta:hover p,
+.octa_ctas div.cta:hover a.info,
+.octa_ctas div.cta:hover img.background,
+.octa_ctas div.touchstart h2,
+.octa_ctas div.touchstart p,
+.octa_ctas div.touchstart a.info .octa_ctas div.touchstart img.background {
+    /* iOS hack to improve performance */
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    /* Actual transitions */
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
