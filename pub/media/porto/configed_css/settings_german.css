@@ -1,6 +1,6 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
- * 2020-08-03 05:56:11 */
+ * 2022-06-17 10:27:43 */
 body.boxed {
 }
 @media (min-width: 768px) {
@@ -978,4 +978,37 @@ header.page-header.type14 .minicart-wrapper .action.showcart .counter.qty {
     left: 100%;
     top: 0;
     margin-left: 5px;
+}header.page-header.type14 .header.content{
+padding-left: 0px !important;
+}
+.footer-top .block .block-title strong {
+color:#ffffff !important;
+}
+
+.footer-top .block .block-title strong {
+color:#ffffff !important;
+}
+header.page-header.type14{
+background-color: #000;
+color:#fff;
+}
+.panel.header a {
+color:#fff !important;
+}
+header.page-header.type14 .navigation li.level0 > a{
+color:#fff;
+}
+
+
+header.page-header.type14 {
+background-color: #000 !important;
+color:#ffffff !important;
+}
+header.page-header.type14 .nav-toggle:before {
+color:#ffffff !important;
+}
+header.page-header.type14 {
+    position: fixed !important;
+    width: 100%!important;
+
 }

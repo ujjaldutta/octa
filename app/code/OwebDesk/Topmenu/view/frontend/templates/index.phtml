@@ -1,0 +1,61 @@
+<?php
+/**
+ * @var $block \OwebDesk\Topmenu\Block\Index
+ */
+
+$links=$block->catmenu($this->getData("categories"))
+?>
+<div class="vertical-menu">
+<?php echo $links?>
+</div>
+<style>
+@media screen and (max-width: 678px){
+ .sw-megamenu .staticwidth {
+    display: none;
+  }
+.sw-megamenu .mobile{
+    display: block;
+  }
+}
+@media screen and (min-width: 678px){
+ .sw-megamenu .mobile{
+    display: none;
+  }
+
+}
+.vertical-menu {
+  width: 200px; 
+display:block !important;
+}
+
+.vertical-menu a {
+  background-color: #fff; /* Grey background color */
+  color: black; /* Black text color */
+  display: block !important; /* Make the links appear below each other */
+  padding: 12px !important; /* Add some padding */
+  text-decoration: none !important /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #000 !important; 
+ color:white !important;
+}
+
+.vertical-menu a.active {
+  background-color: #000 !important; /* Add a green color to the "active/current" link */
+   color:white !important;
+}
+</style>
+<script>
+    require([
+        'jquery'
+],
+function ($) {
+        $(".image-container").mouseover(function () {
+                      $("#kitimgblock").attr('src', $(this).data("hover"));
+           });
+$(".image-container").mouseover(function () {
+                      $("#compimgblock").attr('src', $(this).data("hover"));
+           });
+    });
+</script>

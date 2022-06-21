@@ -1,6 +1,6 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
- * 2020-07-30 03:05:23 */
+ * 2022-06-15 04:31:53 */
 
 .theme-color{color:#000000 !important;}
 .theme-hover-color:hover{color:#000000 !important;}
@@ -71,11 +71,6 @@ button.action.primary:hover{
     }
 }
 @media (min-width: 768px){
-    .page-header.type1 .navigation li.level0, .page-header.type3 .navigation .level0 > .level-top, .page-header.type4 .navigation .level0 > .level-top,.page-header.type20 .navigation .level0 > .level-top,.page-header.type17 .navigation li.level0, .page-header.type5 .navigation .level0 > .level-top, .page-header.type2 .navigation .level0 > .level-top, .page-header.type11 .navigation li.level0 > .level-top, .page-header.type6 .navigation .level0 > .level-top,.page-header.type19 .navigation .level0 > .level-top, .page-header.type7 .navigation .level0 > .level-top,.page-header.type23 .navigation .level0 > .level-top, .page-header .drop-menu + .custom-menu-block a, .page-header.type8 .navigation .level0 > .level-top,.page-header.type8.header-newskin .navigation .level0 > .level-top, .page-header.type9 .navigation .level0 > .level-top, .page-header.type16 .navigation li.level0, .page-header.type2.header-newskin .navigation .level0 > .level-top, .page-header.type18 .navigation .level0 > .level-top, .page-header.header-newskin .navigation .level0 > .level-top{
-        color: #CCCCCC;
-    }
-}
-@media (min-width: 768px){
     .page-header.type1 .navigation li.level0.active, .page-header.type1 .navigation li.level0:hover, .page-header.type2 .navigation .level0:hover > .level-top, .page-header.type3 .navigation .level0:hover > .level-top, .page-header.type3 .navigation .level0.active > .level-top, .page-header.type3 .navigation .level0.has-active > .level-top, .page-header.type4 .navigation .level0:hover > .level-top, .page-header.type4 .navigation .level0.active > .level-top, .page-header.type4 .navigation .level0.has-active > .level-top,.page-header.type20 .navigation .level0:hover > .level-top, .page-header.type20 .navigation .level0.active > .level-top, .page-header.type20 .navigation .level0.has-active > .level-top,.page-header.type17 .navigation .level0:hover > .level-top, .page-header.type17 .navigation .level0.active > .level-top, .page-header.type17 .navigation .level0.has-active > .level-top, .page-header.type5 .navigation .level0:hover > .level-top, .page-header.type5 .navigation .level0.active > .level-top, .page-header.type5 .navigation .level0.has-active > .level-top, .page-header.type6 .navigation .level0:hover > .level-top, .page-header.type6 .navigation .level0.active > .level-top, .page-header.type6 .navigation .level0.has-active > .level-top,----.page-header.type19 .navigation .level0:hover > .level-top, .page-header.type19 .navigation .level0.active > .level-top, .page-header.type19 .navigation .level0.has-active > .level-top, .page-header.type7 .navigation .level0:hover > .level-top, .page-header.type7 .navigation .level0.active > .level-top, .page-header.type7 .navigation .level0.has-active > .level-top,.page-header.type23 .navigation .level0:hover > .level-top, .page-header.type23 .navigation .level0.active > .level-top, .page-header.type23 .navigation .level0.has-active > .level-top, .page-header.type8 .navigation .level0:hover > .level-top, .page-header.type8 .navigation .level0.active > .level-top, .page-header.type8 .navigation .level0.has-active > .level-top,.page-header.type8.header-newskin .navigation .level0:hover > .level-top, .page-header.type8.header-newskin .navigation .level0.active > .level-top, .page-header.type8.header-newskin .navigation .level0.has-active > .level-top, .page-header.type11 .navigation li.level0:hover, .page-header.type11 .navigation li.level0.active, .page-header.type11 .navigation li.level0.has-active, .page-header.type9 .navigation .level0:hover > .level-top, .page-header.type9 .navigation .level0.active > .level-top, .page-header.type9 .navigation .level0.has-active > .level-top, .page-header.type16 .navigation .level0:hover > .level-top ,.page-header.type2.header-newskin .navigation .level0:hover > .level-top,.page-header.type18 .navigation .level0:hover > .level-top, .page-header.header-newskin .navigation .level0:hover > .level-top {
         color: #FFFFFF;
     }
@@ -100,20 +95,32 @@ button.action.primary:hover{
         color: #000000;
     }
 }
+.footer-top{
+    background-color:#000000;
+}
+.footer-top{
+    color:#ffffff;
+}
+.footer-top a {
+    color:#ffffff;
+}
+.footer-top a:hover{
+    color:#ffffff;
+}
 .footer-middle{
-    background-color:#FFFFFF;
+    background-color:#000000;
 }
 .footer-middle, .footer-middle p{
-    color:#90969A;
+    color:#ffffff;
 }
 .footer-middle a{
-    color:#90969A;
+    color:#ffffff;
 }
 .footer-middle a:hover{
-    color:#555555;
+    color:#F2F2F2;
 }
 .footer-middle .block .block-title strong{
-    color:#000000;
+    color:#ffffff;
 }
 .footer-middle [class^="porto-icon-"].theme-color, .footer-middle [class*=" porto-icon-"].theme-color{
     color:#90969A !important;
@@ -122,14 +129,14 @@ button.action.primary:hover{
     border-right-color:#222222;
 }
 .footer-bottom{
-    background-color:#FFFFFF;
+    background-color:#000000;
 }
 .footer-bottom, .footer-bottom p{
-    color:#90969A;
+    color:#ffffff;
 }
 .footer-bottom a{
-    color:#90969A;
+    color:#ffffff;
 }
 .footer-bottom a:hover{
-    color:#555555;
+    color:#F2F2F2;
 }
